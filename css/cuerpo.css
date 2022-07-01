@@ -142,19 +142,58 @@ canvas{
 }
 
 .habilidad{
+    background-color: #0e1c2586;
+    padding: 12px 7px;
+    border-radius: 12px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    width: 250px;
+    width: 300px;
     margin: 12px 16px;
 }
 
+.hab{
+    width: 120px;
+}
+
 .pequeña{
-    width: 105px !important;
-    height: 110px !important;
+    width: 100px;
+    height: 105px;
 }
 
 .samsamuellogo{
     margin: 35px 0;
     text-align: center;
     font-size: 5em;
+}
+
+
+.bbmensajes{
+    padding: 12px;
+    width: 300px;
+    background-color: #173040;
+    position: fixed;
+    border: 1px solid gray;
+    top: 80px;
+    left: -400px;
+    transition: 0.4s all ease;
+}
+
+.mensaje{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.autor{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: end;
+    color: white;
+}
+
+.autor::before{
+    content: '"';
+}
+
+.autor::after{
+    content: '"';
 }

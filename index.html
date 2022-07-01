@@ -8,21 +8,30 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/cuerpo.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carga.css">
     <link rel="stylesheet" href="css/mediaQueries.css">
     <link rel="stylesheet" href="css/samuel-logo/css/samulogo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="multimedia/favicon.ico" type="image/x-icon">
+    <script src="scripts/carga.js"></script>
     <title>Samuel González</title>
 </head>
-<body id="particles-js">
+<body class="body" id="particles-js">
+    <div class="bbmensajes">
+        <p class="mensaje"></p>
+        <p class="autor"></p>
+    </div>
     <nav class="nav" id="inicio">
         <ul>
             <li class="activo"><a href="">Inicio</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#acercade">Acerca de</a></li>
-            <li><a href="">Resumen</a></li>
         </ul>
     </nav>
+    <marquee scrollamount="17">
+        <p>Estoy migrando y el portafolio a Node.js y actualizando el contendio. Pronto esta pagina estara fuera de servicio</p>
+    </marquee>
     <!-- --------------------------------- -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- -->
@@ -83,82 +92,82 @@
             <div class="seccion">
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/html.png" alt="HTML5" title="HTML5">
-                    <p class="parrado negrilla">HTML5: MAQUETACIÓN</p>
+                    <p class="parrado negrilla hab">HTML5: MAQUETACIÓN</p>
                 </div>
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/css.png" alt="CSS3" title="CSS3">
-                    <p class="parrado negrilla">CSS3: ESTILOS DEL SITIO</p>
+                    <p class="parrado negrilla hab">CSS3: ESTILOS DEL SITIO</p>
                 </div>
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/js.png" alt="Javascript" title="Javascript">
-                    <p class="parrado negrilla">Javascript: Dinamismo del sitio web</p>
+                    <p class="parrado negrilla hab">Javascript: Dinamismo del sitio web</p>
                 </div>
             </div>
             <h3>Diseño de la web</h3>
             <div class="seccion">
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/ps.png" alt="Photoshop" title="Photoshop">
-                    <p class="parrado negrilla">Photoshop: Edición de fotografias</p>
+                    <p class="parrado negrilla hab">Photoshop: Edición de fotografias</p>
                 </div>
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/fontawesome.png" alt="fontawesome" title="fontawesome">
-                    <p class="parrado negrilla">FontAwesome Icons: Inconos para la web</p>
+                    <p class="parrado negrilla hab">FontAwesome Icons: Inconos para la web</p>
                 </div>
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/google.png" alt="Google" title="Google">
-                    <p class="parrado negrilla">Google Fonts/Icons: Tipografias e iconos para la web</p>
+                    <p class="parrado negrilla hab">Google Fonts/Icons: Tipografias e iconos para la web</p>
                 </div>
             </div>
             <h3>Bases de datos</h3>
             <div class="seccion">
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/mysql.png" alt="MySql" title="MySql">
-                    <p class="parrado negrilla">MySql: Gestor y creador de bases de datos</p>
+                    <p class="parrado negrilla hab">MySql: Gestor y creador de bases de datos</p>
                 </div>
             </div>
             <h3>Herramientas</h3>
             <div class="seccion">
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/vsc.png" alt="Visual Studio Code" title="Visual Studio Code">
-                    <p class="parrado negrilla">Visual Studio Code: Editor de texto</p>
+                    <p class="parrado negrilla hab">Visual Studio Code: Editor de texto</p>
                 </div>
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/terminal.png" alt="Terminal" title="Terminal">
-                    <p class="parrado negrilla">Terminal de Windows/CMD</p>
+                    <p class="parrado negrilla hab">Terminal de Windows/CMD</p>
                 </div>
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/xampp.png" alt="Xampp" title="Xampp">
-                    <p class="parrado negrilla">Xampp: Servidor Local</p>
+                    <p class="parrado negrilla hab">Xampp: Servidor Local</p>
                 </div>
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/git.png" alt="Git" title="Git">
-                    <p class="parrado negrilla">Git: Control de versiones</p>
+                    <p class="parrado negrilla hab">Git: Control de versiones</p>
                 </div>
             </div>
             <h3>Backend</h3>
             <div class="seccion">
                 <div class="habilidad">
                     <img class="img-comunes pequeña" src="multimedia/node.js" alt="Node.Js" title="Node.Js">
-                    <p class="parrado negrilla">Node.js: Javascript del lado del servidor</p>
+                    <p class="parrado negrilla hab">Node.js: Javascript del lado del servidor</p>
                 </div>
                 
             </div>
         </div>
         <h2 class="titulo" id="acercade">Acerca De</h3>
         <img class="img" src="multimedia/skeleton-unscreen.gif">
-        <p class="parrafo-azul">¿Que puede hacer un desarrollador Fron-end Developer?</p>
+        <p class="parrafo-azul">¿Que puede hacer un desarrollador Front-end Developer?</p>
         <div class="info">
             <p class="parrafo negrilla">
                 Como dicen por ahi algunos programadores, "si puedes soñarlo puedes programarlo", soy capaz de imaginar un sitio web de la nada a la existencia completamente desde cero. No uso trucos, ni tampoco magia, Me especializo en manipular la estructura misma de la web, sus materias primas de HTML, CSS Y JavaScript.
             </p>
             <p class="parrafo negrilla">
-                Las tecnologias de codigo abierto me potencian en el proceso. Adopte por completo el editor de Visual Studio Code y puedo aplicaciones web personalizadas desde cero para contribuir cualquier necesidad concebible. He contribuido en pequeños proyectos de mis amigos que quieren seguir mi mismo camino. Tengo la intencion de aprovechar cada oportunidad que tengo para desarrollarme en lo que me gusta.
+                Las tecnologias de codigo abierto me potencian en el proceso. Adopte por completo el editor de coodigo Visual Studio Code y puedo lanzar aplicaciones web personalizadas desde cero para contribuir cualquier necesidad concebible. He contribuido en pequeños proyectos de mis amigos que quieren seguir mi mismo camino. Tengo la intencion de aprovechar cada oportunidad que tengo para desarrollarme en lo que me gusta.
             </p>
             <p class="parrafo negrilla">
                 Mi experiencia con el diseño no es mucha, de hecho adopte esta habilidad antes de comenzar a hacer codigo. Hacia ediciones graciosas de mis colegas. Gracias a esto puedo implementar facilmente diseños en los sitios web que hago realidad.
             </p>
             <p class="parrafo negrilla">
-                Puedo planificar, diseñar, construir, lanzar y mantener un sitio web yo mismo. Lastimosamente no cuento con certificados ni titulos que me mencionen como desarrollador, todos los conocimientos que tengo y voy obteniendo son gracias a curso gratuitos busco y realizo, Apenas tengo 16 años.
+                Puedo planificar, diseñar, construir, lanzar y mantener un sitio web yo mismo. Lastimosamente no cuento con certificados ni titulos que me mencionen como desarrollador, todos los conocimientos que tengo y voy obteniendo son gracias a cursos gratuitos que busco y completo.
             </p>
             <i class="samsamuellogo"></i>
         </div>
@@ -189,5 +198,7 @@
     <script src="scripts/particles.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/animaciones.js"></script>
+    <script src="scripts/carga.js"></script>
+    <script src="scripts/notasbb.js"></script>
 </body>
 </html>

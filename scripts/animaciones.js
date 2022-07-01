@@ -10,8 +10,6 @@ function rotar (){
 
 // ------- cambiar imagen -----
 
-// transform: rotate3d(0, 1, 0, 180deg);
-
 let imagenGirar = document.querySelector('.animacion');
 let yo = document.querySelector('.yo');
 let esqueleto = document.querySelector('.esqueleto');
